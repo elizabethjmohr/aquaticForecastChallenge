@@ -10,6 +10,6 @@ Oxygen forecasts were generated according to a linear regression with temperatur
 
 ## Future improvements
 - Address autocorrelation of residuals by experimenting with different model structures.
-- Partition and propogate uncertainties associated with initial conditions, parameters, and imperfect measurement.
+- Use a Bayesian model rather than bootstrapping to partition and propogate uncertainties associated with initial conditions, parameters, process error, and imperfect observations.
 - Assimilate data using a particle filter.
 
